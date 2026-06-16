@@ -5,6 +5,8 @@ packages:
 # (Missing binary integrity verification in Deno module).
 overrides:
   esbuild: ^0.28.1
+  js-yaml@<=4.1.1: ^4.1.2
+  markdown-it@<=14.1.1: ^14.1.2
 
 # Vite toolchain needs esbuild's postinstall step. Keep the allowlist explicit.
 allowBuilds:
@@ -76,3 +78,5 @@ minimumReleaseAgeExclude:
   - '@esbuild/win32-ia32@0.28.1'
   - '@esbuild/win32-x64@0.28.1'
   - esbuild@0.28.1
+  - js-yaml@4.1.2
+  - markdown-it@14.1.2
