@@ -36,22 +36,22 @@ const canPause = computed(
 
 const pipelineSteps = [
   {
-    title: '1. ローカルで変更',
+    title: '1. Change locally',
     description:
       'まずは自分の PC でコードを直します。ここでは Vue と TypeScript を使ってゲームを更新します。',
   },
   {
-    title: '2. pre-commit で早めに確認',
+    title: '2. Check with pre-commit',
     description:
       'コミット前に formatter、lint、型検査を走らせて、単純なミスを早く見つけます。',
   },
   {
-    title: '3. GitHub Actions で自動確認',
+    title: '3. Automated confirmation with GitHub Actions',
     description:
       'push や PR をきっかけに、単体テスト、Playwright、Storybook build が GitHub 上で動きます。',
   },
   {
-    title: '4. main へマージしたら公開',
+    title: '4. Publish having merged with main',
     description:
       'main に入った変更だけが GitHub Pages にデプロイされるので、公開版が安定しやすくなります。',
   },
