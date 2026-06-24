@@ -308,7 +308,7 @@ code {
   padding: 14px 18px;
   min-width: 132px;
   color: #07111f;
-  background: linear-gradient(135deg, #6df0cc, #9ffbe3);
+  background: linear-gradient(135deg, #008a65, #9ffbe3);
   font-weight: 700;
   cursor: pointer;
   transition:
@@ -339,7 +339,7 @@ code {
 }
 
 .arcade-button--fire {
-  background: linear-gradient(135deg, #ff983c, #ffc56f);
+  background: linear-gradient(135deg, #ffffff, #ffc56f);
 }
 
 .arcade-button--icon {
